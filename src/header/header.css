@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.header{
+    display:flex;
+    padding:20px 60px;
+    justify-content: space-between;
+    align-items: center;
+    font-family:"Century Gothic",sans-serif;font-weight:400;
+    background: transparent;
+}
+.headerName{
+    font-size:40px;color:#FFBCBC;font-family: 'Satisfy', cursive;
+}
+.headernamelink{
+    flex:1;
+}
+.links{
+    text-decoration: none;color:white;
+}
+.headerlinks{
+   flex:1;position:relative;
+}
+.smallsizebutton{display:none;margin:0;padding:0;text-align:right;color:white;width:100%;}
+.headerul{
+    text-decoration: none;
+    padding:0;margin:0;
+list-style-type:none;display:flex;justify-content:space-between;
+}
+.headerlist{
+    font-family:"Century Gothic",sans-serif;
+    font-size:20px;
+}/* .smallsizebutton:hover + .headerul{
+    display:flex;flex-direction: column;background-color:white;color:black;padding:5px;position: absolute;right:0px;top:30px;
+    } */
+@media screen and (max-width:750px){
+.smallsizebutton{display:inline-block;}
+.headerlinks{display:flex;justify-content: flex-end;align-items: center;}
+.headerul{
+    display:none;
+}
+.header{
+    padding:20px 20px;
+}
+}

@@ -1,0 +1,39 @@
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.home{
+    display:flex;
+    justify-content: space-between;
+    min-height:100vh;
+    flex-direction: column;min-width:320px;
+}
+.bottombutton img{
+    display:block;margin:0 auto;
+    transition:translate opacity 1s;animation:scrolldown 1s infinite ease-in-out;cursor: pointer;
+}
+@keyframes scrolldown{
+    0%{
+        opacity:1;
+        transform:translate(0px,0px);
+    }
+    50%{
+        opacity:0;
+       transform:translate(0px,10px);
+    }
+    100%{
+        opacity:1;
+        transform:translate(0px,0px);
+    }
+}
+.bottombutton{
+    padding-bottom:20px;
+}

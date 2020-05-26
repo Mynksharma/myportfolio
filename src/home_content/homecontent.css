@@ -1,0 +1,62 @@
+.homecontent{
+    width:70%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;margin:0 auto;
+}
+.homeimg{
+flex:1; animation:imageeffect 1s 1 ease-in-out;transition:translate opacity 1s;
+}
+@keyframes imageeffect{
+    from{opacity:0;
+        transform:translate(50px,0px)
+    }
+    to{opacity:1;
+        transform:translate(0px,0px)
+    }
+}
+.homedivimg{
+    border-radius:50%;overflow: hidden;
+    border:8px solid #555555;
+   box-shadow: 5px 5px 6px rgba(255, 255, 255, 0.034);height:250px;width:250px;margin:0 auto;
+}
+.homeintro{
+flex:3;
+transition:translate opacity 1s;
+animation:texteffect 1s 1 ease-in-out;
+}
+@keyframes texteffect{
+    from{opacity:0;
+        transform:translate(-50px,0px)
+    }
+    to{opacity:1;
+        transform:translate(0px,0px)
+    }
+}
+.homeintro p{
+    font-family:"Century Gothic",sans-serif;text-align:center;font-size:40px;margin:3px;color:white;
+}
+.name::before{
+    content:"I'm";
+    font-size:20px;
+    padding-right: 10px;
+    color:#989696;
+}
+.Buttoncontainer{
+    display:flex;
+    justify-content: center;
+    
+}
+@media screen and (max-width:1000px){
+    .homecontent{width:90%;}
+}
+@media screen and (max-width:750px){
+    .homecontent{flex-direction:column;width:90%;}
+    .homeimg,.homeintro{flex:1}
+    .homeintro{padding-top:30px}
+}
+@media screen and (max-width:450px){
+    .homeintro p{
+        font-size:30px;
+    }
+}

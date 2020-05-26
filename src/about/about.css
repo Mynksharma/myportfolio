@@ -1,0 +1,66 @@
+.about{
+    width:90%;
+    display:flex;margin:0 auto;
+}
+.left{flex:1;}
+.leftcontent{
+    width:70%;height:400px;background-color: rgb(75,74,74);padding:20px;position:relative;
+}
+.left h1{
+    color:#FFBCBC;font-size:40px;margin:0;font-family:"Century Gothic",sans-serif;padding:0 0 10px 20px;
+}
+.right{
+    flex:1;padding-left: 50px;
+}
+.right h1{
+    font-family:"Century Gothic",sans-serif;
+   margin:0;color:#FFBCBC;
+}
+.right p{
+    font-family:"Century Gothic",sans-serif;letter-spacing: 1px;
+   margin:0;color:white;text-align:justify;padding-top:40px;line-height:1.6
+}
+.leftcontentinner{
+    position:absolute;top:0;bottom:0;right:-100px;margin:auto 0;
+    height:80%;width:200px;transition:translate opacity 1s;
+    animation: imgmove 1s 1 ease-in-out;
+}
+.wave{
+    width:70%;
+}
+@keyframes imgmove{
+    from{
+        right:100px;opacity:0;
+    }
+    to{
+        right:-100px;opacity:1;
+    }
+}
+@media screen and (max-width:1000px){
+    .about{flex-direction:column;align-items:center;}
+    .right{
+        padding-top:40px;padding-left:0px;
+    }
+}
+@media screen and (max-width:500px){
+    .leftcontent{
+    padding-left: 10px;width:80%;height:300px;
+    }
+    .left h1{font-size:25px;padding-left:10px;}
+    .leftcontentinner{right:-30px;bottom:10px;margin:0;height:80%;top:unset}
+    .right h1{
+        font-size:25px;
+    }
+    .right p{letter-spacing: 0px;}
+    .wave{
+        visibility: hidden;
+    }
+    @keyframes imgmove{
+        from{
+            right:100px;opacity:0;
+        }
+        to{
+            right:-30px;opacity:1;
+        }
+    }
+}

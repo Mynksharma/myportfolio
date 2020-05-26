@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.8e8d71c2.chunk.css",
+    "main.js": "/myportfolio/static/js/main.0c8fd9f9.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.0c8fd9f9.chunk.js.map",
+    "runtime-main.js": "/myportfolio/static/js/runtime-main.699ab192.js",
+    "runtime-main.js.map": "/myportfolio/static/js/runtime-main.699ab192.js.map",
+    "static/js/2.d95c05f6.chunk.js": "/myportfolio/static/js/2.d95c05f6.chunk.js",
+    "static/js/2.d95c05f6.chunk.js.map": "/myportfolio/static/js/2.d95c05f6.chunk.js.map",
+    "index.html": "/myportfolio/index.html",
+    "precache-manifest.2f0c461cb0424894da2c1700cba3f38c.js": "/myportfolio/precache-manifest.2f0c461cb0424894da2c1700cba3f38c.js",
+    "service-worker.js": "/myportfolio/service-worker.js",
+    "static/css/main.8e8d71c2.chunk.css.map": "/myportfolio/static/css/main.8e8d71c2.chunk.css.map",
+    "static/js/2.d95c05f6.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.d95c05f6.chunk.js.LICENSE.txt",
+    "static/media/fb.png": "/myportfolio/static/media/fb.a64bec05.png",
+    "static/media/gokartscr1.png": "/myportfolio/static/media/gokartscr1.58452ba5.png",
+    "static/media/home.png": "/myportfolio/static/media/home.50f3664e.png",
+    "static/media/homepage-compressed.jpg": "/myportfolio/static/media/homepage-compressed.bf251c22.jpg",
+    "static/media/image3.png": "/myportfolio/static/media/image3.008c52dd.png",
+    "static/media/lyfscr.png": "/myportfolio/static/media/lyfscr.d2876bc0.png",
+    "static/media/port.jpg": "/myportfolio/static/media/port.1be512a0.jpg",
+    "static/media/portfolio.jpg": "/myportfolio/static/media/portfolio.4a5515fc.jpg",
+    "static/media/wave2.png": "/myportfolio/static/media/wave2.cd3b420e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.699ab192.js",
+    "static/js/2.d95c05f6.chunk.js",
+    "static/css/main.8e8d71c2.chunk.css",
+    "static/js/main.0c8fd9f9.chunk.js"
+  ]
+}
